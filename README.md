@@ -48,7 +48,7 @@ MagicAnalyser is a user-friendly data analysis tool that allows users to quickly
 4. View insights and visualizations based on your questions.
 5. Explore the "Usage" page for more instructions.
 
-## How to user MagicAnalyser
+## How to use MagicAnalyser
 download `MagicAnalyser.mp4` file and see it
 <video src="MagicAnalyser.mp4" controls title="Title"></video>
 
