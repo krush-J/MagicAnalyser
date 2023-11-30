@@ -3,3 +3,5 @@ pygwalker
 pandas
 matplotlib
 streamlit
+pillow
+tk
