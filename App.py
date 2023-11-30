@@ -1,5 +1,3 @@
-from dotenv import load_dotenv
-import os
 import pandas as pd
 from pandasai import SmartDataframe
 from pandasai.llm import OpenAI
@@ -8,18 +6,14 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import streamlit.components.v1 as components
 import pygwalker as pyg
-import altair as alt
 
 # Configure Matplotlib to use the TkAgg backend
 st.set_option('deprecation.showPyplotGlobalUse', False)  # Disable warning
 plt.switch_backend('TkAgg')  # Set the backend
-load_dotenv()
 
 st.set_page_config(layout="wide")
 
-API_KEY = os.environ.get('OPEN_API_KEY', 'your_default_api_key')  # Replace with your default API key
-
-llm = OpenAI(api_token=API_KEY)
+llm = OpenAI(api_token="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")
 
 # Add a logo or header
 #logo = Image.open("your_logo.png")  # Replace with your logo file
