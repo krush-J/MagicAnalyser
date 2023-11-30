@@ -1,0 +1,5 @@
+pandasai
+pygwalker
+pandas
+matplotlib
+streamlit
